@@ -15,10 +15,11 @@ ${reset};
   }
   body{
     font-family: 'Noto Sans KR', sans-serif;
-    min-height:100vh;
-    background-color: ${(props) => props.theme.bgColor};
+    min-height:150vh;
+    background-color:  white;// ${(props) => props.theme.bgColor};
     font-weight: 400;
     color: ${(props) => props.theme.textColor};
+    padding-top: 90px;
   }
 `;
 

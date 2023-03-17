@@ -16,12 +16,32 @@ const myRouter = createBrowserRouter(
           errorElement: <h1>Page Not Found</h1>,
         },
         {
-          path: "watch",
+          path: "/series",
+          element: <span style={{ color: "white" }}>series</span>,
+        },
+        {
+          path: "/movies",
+          element: <span style={{ color: "white" }}>movies</span>,
+        },
+        {
+          path: "/trendings",
+          element: <span style={{ color: "white" }}>trendings</span>,
+        },
+        {
+          path: "/bookmarks",
+          element: <span style={{ color: "white" }}>bookmarks</span>,
+        },
+        {
+          path: "/by-langs",
+          element: <span style={{ color: "white" }}>by-langs</span>,
+        },
+        {
+          path: "/watch",
           element: <Watch />,
           errorElement: <h1>Page Not Found</h1>,
         },
         {
-          path: "search",
+          path: "/search",
           element: <Search />,
           errorElement: <h1>Page Not Found</h1>,
         },
