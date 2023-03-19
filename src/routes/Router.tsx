@@ -11,17 +11,18 @@ const myRouter = createBrowserRouter(
       element: <Root />,
       children: [
         {
-          path: "",
+          path: "/",
+          element: <Home />,
+          errorElement: <h1>Page Not Found</h1>,
+        },
+        {
+          path: "/movies/:movieId",
           element: <Home />,
           errorElement: <h1>Page Not Found</h1>,
         },
         {
           path: "/series",
           element: <span style={{ color: "white" }}>series</span>,
-        },
-        {
-          path: "/movies",
-          element: <span style={{ color: "white" }}>movies</span>,
         },
         {
           path: "/trendings",

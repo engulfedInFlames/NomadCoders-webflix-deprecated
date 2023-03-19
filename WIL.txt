@@ -1,0 +1,1 @@
+1. background의 linear-gradient는 background-image의 값으로 적용된다.
