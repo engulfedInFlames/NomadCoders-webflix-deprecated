@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.f1a726b4.js",
-    "index.html": "/index.html",
-    "main.f1a726b4.js.map": "/static/js/main.f1a726b4.js.map"
+    "main.js": "/webflix/static/js/main.f5661683.js",
+    "index.html": "/webflix/index.html",
+    "main.f5661683.js.map": "/webflix/static/js/main.f5661683.js.map"
   },
   "entrypoints": [
-    "static/js/main.f1a726b4.js"
+    "static/js/main.f5661683.js"
   ]
 }
