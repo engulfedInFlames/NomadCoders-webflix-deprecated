@@ -50,7 +50,7 @@ const myRouter = createBrowserRouter(
       errorElement: <h1>Page Not Found</h1>,
     },
   ],
-  { basename: "" }
+  { basename: `${process.env.PUBLIC_URL}/` }
 );
 
 export default myRouter;
