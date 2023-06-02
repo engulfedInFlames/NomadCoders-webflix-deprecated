@@ -1,3 +1,5 @@
 # webflix 💕
 
-Improvements Coming Soon...
+- Improvements Coming Soon...
+- You can see the application in gh-pages.
+
