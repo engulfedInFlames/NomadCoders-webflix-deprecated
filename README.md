@@ -1,5 +1,5 @@
 # webflix 💕
 
-- Improvements Coming Soon...
-- You can see the application in gh-pages.
+Webflix clone coding with `framer-motion`
+<a href="https://engulfedinflames.github.io/webflix/">Deployed</a>
 
